@@ -6,6 +6,9 @@
 
 html,
 body,
+h2 {
+  text-align: center;
+}
 .wrapper {
   height: 100%;
   margin: 0;
@@ -48,6 +51,7 @@ header {
   width: 100%;
   background: #e7e9eb;
   height: 2px;
+  text-align: center;
 }
 
 .card-body {
