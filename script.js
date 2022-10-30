@@ -111,6 +111,17 @@ return passwordString;
 
 function UserPassword(passwordString) {
     document.getElementById("password").textContent = passwordString;
-    
-
 }
+// logs the text from the password into the password line
+
+var copy = document.querySelector("#copy");
+copy.addEventListener("click", function() {
+    CopyPassword();
+});
+
+function CopyPassword() {
+document.getElementById("password").select();
+document.execCommand("copy");
+window.alert("Password Copied");
+}
+// liked this copy feature and modified it from a w3 page on password generaters.https://w3collective.com/random-password-generator-javascript/
