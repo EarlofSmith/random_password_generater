@@ -11,4 +11,5 @@
 
 ## Screen shot and link
     https://earlofsmith.github.io/random_password_generator/
-    ![deployed webpage](/Assets/website-screenshot.png)
+
+![deployed page](/Assets/website-screenshot.png)
