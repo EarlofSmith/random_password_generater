@@ -124,4 +124,4 @@ document.getElementById("password").select();
 document.execCommand("copy");
 window.alert("Password Copied");
 }
-// liked this copy feature and modified it from a w3 page on password generaters.https://w3collective.com/random-password-generator-javascript/
+// I liked this copy feature so i created a button and modified it from a w3 page on password generaters.https://w3collective.com/random-password-generator-javascript/
